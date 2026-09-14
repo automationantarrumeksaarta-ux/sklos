@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #F7F5EF;
+  color: #1C2321;
+}
+
+/* The Kaizen loop rule — a single recurring structural device (not decoration):
+   used only in the left rail and on the loop-stage indicator, nowhere else. */
+.loop-rule {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #DED8C8 0px,
+    #DED8C8 4px,
+    transparent 4px,
+    transparent 9px
+  );
+}
